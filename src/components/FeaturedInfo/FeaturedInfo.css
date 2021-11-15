@@ -10,7 +10,7 @@
 
 .featuredItem {
   flex: 1;
-  margin: 30px;
+  /* margin: 30px; */
   padding: 20px 30px;
   cursor: pointer;
   border-radius: 10px;

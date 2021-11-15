@@ -5,10 +5,8 @@
   box-shadow: 0px 0px 15px -10px #000000;
 }
 .widgetTitle {
-  font-size: 25px;
-  font-weight: bold;
-  /* padding: 10px; */
-  /* margin-bottom: 100px; */
+  font-size: 22px;
+  font-weight: 600;
 }
 .widgetList {
   margin: 0%;

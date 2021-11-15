@@ -1,3 +1,49 @@
 .widgetlg {
   flex: 2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px -10px #000000;
+}
+.widgetTable {
+  width: 100%;
+  border-spacing: 20px;
+}
+.widgetTh {
+  text-align: left;
+}
+.widgetUser {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+.widgetImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.widgetDate,
+.widgetAmount {
+  font-weight: 300;
+}
+.widgetbtn {
+  padding: 5px 7px;
+  border-radius: 10p;
+  border: none;
+}
+
+.widgetbtn.Approved {
+  background-color: rgb(121, 221, 166);
+  color: #3bb077;
+}
+.widgetbtn.Pending {
+  background-color: #fff0f1;
+  color: #d95087;
+}
+.widgetbtn.Declined {
+  background-color: #fff0f1;
+  color: #2a7ade;
 }

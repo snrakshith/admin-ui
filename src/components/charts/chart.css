@@ -1,6 +1,6 @@
 .chart {
-  padding: 10px 0px;
-  /* height: 300px; */
+  /* margin: 10px; */
+  height: 400px;
   width: 100%;
   cursor: pointer;
   border-radius: 10px;
@@ -9,7 +9,8 @@
 
 .chartTitle {
   font-size: 20px;
-  margin-left: 20px;
+  margin: 25px;
+  padding: 10px;
   font-weight: bold;
-  color: lightslategray;
+  color: #000000;
 }
