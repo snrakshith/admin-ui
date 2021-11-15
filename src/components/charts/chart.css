@@ -1,0 +1,15 @@
+.chart {
+  padding: 10px 0px;
+  /* height: 300px; */
+  width: 100%;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px -10px #000000;
+}
+
+.chartTitle {
+  font-size: 20px;
+  margin-left: 20px;
+  font-weight: bold;
+  color: lightslategray;
+}
