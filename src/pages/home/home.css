@@ -1,3 +1,9 @@
 .homeContainer {
   flex: 4;
 }
+.chart {
+  margin-bottom: 20px;
+}
+.homeWidgets {
+  display: flex;
+}

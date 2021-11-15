@@ -21,8 +21,12 @@ const Topbar = () => {
           <div className="topbar-icon-container">
             <Settings />
           </div>
-          <div className="top-Avatar">
-            <img src={require("./address.png")} alt="" />
+          <div>
+            <img
+              className="topAvatar"
+              src="https://v4.mui.com/static/images/avatar/1.jpg"
+              alt=""
+            />
           </div>
         </div>
       </div>

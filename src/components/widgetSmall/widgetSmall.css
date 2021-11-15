@@ -1,0 +1,50 @@
+.widgetsm {
+  flex: 1;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px -10px #000000;
+}
+.widgetTitle {
+  font-size: 25px;
+  font-weight: bold;
+  /* padding: 10px; */
+  /* margin-bottom: 100px; */
+}
+.widgetList {
+  margin: 0%;
+  padding: 0%;
+  list-style-type: none;
+}
+.widgetListItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.widgetAvatar {
+  border-radius: 50%;
+  width: 10%;
+}
+
+.widgetItemContent {
+  display: flex;
+  flex-direction: column;
+}
+.widgetName {
+  color: #000;
+  font-weight: 600;
+}
+.widgetWork {
+  color: #d3c7c7e3;
+  font-weight: 300;
+}
+
+.widgetbtn {
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  padding: 7px 10px;
+  cursor: pointer;
+}
