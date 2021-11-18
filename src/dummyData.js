@@ -40,3 +40,80 @@ export const userData = [
     "Active Users": 2100,
   },
 ];
+
+// Row Data
+
+export const userRows = [
+  {
+    id: 1,
+    username: "Snow",
+    avatar: "https://pbs.twimg.com/media/EzXp6zTVUAoKAri.jpg",
+    email: "snrakshith@97gmail.com",
+    status: "active",
+    transaction: "$250",
+  },
+  {
+    id: 2,
+    username: "Lannister",
+    avatar: "https://pbs.twimg.com/media/EzXp6zTVUAoKAri.jpg",
+    email: "snrakshith@97gmail.com",
+    status: "active",
+    transaction: "$250",
+  },
+  {
+    id: 3,
+    username: "Lannister",
+    avatar: "https://pbs.twimg.com/media/EzXp6zTVUAoKAri.jpg",
+    email: "snrakshith@97gmail.com",
+    status: "active",
+    transaction: "$250",
+  },
+  {
+    id: 4,
+    username: "Stark",
+    avatar: "https://pbs.twimg.com/media/EzXp6zTVUAoKAri.jpg",
+    email: "snrakshith@97gmail.com",
+    status: "active",
+    transaction: "$250",
+  },
+  {
+    id: 5,
+    username: "Targaryen",
+    avatar: "https://pbs.twimg.com/media/EzXp6zTVUAoKAri.jpg",
+    email: "snrakshith@97gmail.com",
+    status: "active",
+    transaction: "$250",
+  },
+  {
+    id: 6,
+    username: "Melisandre",
+    avatar: "https://pbs.twimg.com/media/EzXp6zTVUAoKAri.jpg",
+    email: "snrakshith@97gmail.com",
+    status: "active",
+    transaction: "$250",
+  },
+  {
+    id: 7,
+    username: "Clifford",
+    avatar: "https://pbs.twimg.com/media/EzXp6zTVUAoKAri.jpg",
+    email: "snrakshith@97gmail.com",
+    status: "active",
+    transaction: "$250",
+  },
+  {
+    id: 8,
+    username: "Frances",
+    avatar: "https://pbs.twimg.com/media/EzXp6zTVUAoKAri.jpg",
+    email: "snrakshith@97gmail.com",
+    status: "active",
+    transaction: "$250",
+  },
+  {
+    id: 9,
+    username: "Roxie",
+    avatar: "https://pbs.twimg.com/media/EzXp6zTVUAoKAri.jpg",
+    email: "snrakshith@97gmail.com",
+    status: "active",
+    transaction: "$250",
+  },
+];
