@@ -117,3 +117,98 @@ export const userRows = [
     transaction: "$250",
   },
 ];
+
+// Row Data
+
+export const productRows = [
+  {
+    id: 1,
+    product: "Apple Airpods",
+    stock: "125",
+    status: "active",
+    avatar:
+      "https://p1.pxfuel.com/preview/422/895/662/airpods-apple-headphones-technology-music-minialistisch.jpg",
+
+    price: "$250",
+  },
+  {
+    id: 2,
+    product: "Apple Airpods",
+    stock: "125",
+    status: "active",
+    avatar:
+      "https://p1.pxfuel.com/preview/422/895/662/airpods-apple-headphones-technology-music-minialistisch.jpg",
+
+    price: "$250",
+  },
+  {
+    id: 3,
+    product: "Apple Airpods",
+    stock: "125",
+    status: "active",
+    avatar:
+      "https://p1.pxfuel.com/preview/422/895/662/airpods-apple-headphones-technology-music-minialistisch.jpg",
+
+    price: "$250",
+  },
+  {
+    id: 4,
+    product: "Apple Airpods",
+    stock: "125",
+    status: "active",
+    avatar:
+      "https://p1.pxfuel.com/preview/422/895/662/airpods-apple-headphones-technology-music-minialistisch.jpg",
+
+    price: "$250",
+  },
+  {
+    id: 5,
+    product: "Apple Airpods",
+    stock: "125",
+    status: "active",
+    avatar:
+      "https://p1.pxfuel.com/preview/422/895/662/airpods-apple-headphones-technology-music-minialistisch.jpg",
+
+    price: "$250",
+  },
+  {
+    id: 6,
+    product: "Apple Airpods",
+    stock: "125",
+    status: "active",
+    avatar:
+      "https://p1.pxfuel.com/preview/422/895/662/airpods-apple-headphones-technology-music-minialistisch.jpg",
+
+    price: "$250",
+  },
+  {
+    id: 7,
+    product: "Apple Airpods",
+    stock: "125",
+    status: "active",
+    avatar:
+      "https://p1.pxfuel.com/preview/422/895/662/airpods-apple-headphones-technology-music-minialistisch.jpg",
+
+    price: "$250",
+  },
+  {
+    id: 8,
+    product: "Apple Airpods",
+    stock: "125",
+    status: "active",
+    avatar:
+      "https://p1.pxfuel.com/preview/422/895/662/airpods-apple-headphones-technology-music-minialistisch.jpg",
+
+    price: "$250",
+  },
+  {
+    id: 9,
+    product: "Apple Airpods",
+    stock: "125",
+    status: "active",
+    avatar:
+      "https://p1.pxfuel.com/preview/422/895/662/airpods-apple-headphones-technology-music-minialistisch.jpg",
+
+    price: "$250",
+  },
+];
