@@ -5,6 +5,7 @@ import UserList from "./pages/userList/UserList";
 import Home from "./pages/home/Home";
 import "./app.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import User from "./pages/user/User";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/users" element={<UserList />} />
+          <Route path="/users/:userID" element={<User />} />
         </Routes>
       </div>
     </Router>

@@ -1,0 +1,164 @@
+.user {
+  flex: 4;
+  padding: 20px;
+}
+
+.userTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.userTitle {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.userBtn {
+  width: 80px;
+  border: none;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  background-color: teal;
+}
+
+.userContainer {
+  display: flex;
+  margin-top: 20px;
+}
+
+.userShow {
+  flex: 1;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px -10px #000000;
+}
+
+.userUpdate {
+  flex: 2;
+  margin-left: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px -10px #000000;
+}
+
+.userShowTop {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.userShowImg {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.userShowTitle {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  /* font-size: 20px; */
+}
+
+.userShowUsername {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.userShowDetailPosition {
+  font-size: 24px;
+  color: lightgrey;
+  font-weight: 300;
+}
+
+.userShowBottom {
+  /* margin-top: 20px; */
+  padding: 5px 30px;
+}
+
+.details {
+  font-size: 16px;
+  color: rgb(179, 176, 176);
+  font-weight: 600;
+  /* margin-bottom: 15px; */
+}
+
+.infoContainer {
+  display: flex;
+  margin: 15px 0px;
+  align-items: center;
+}
+
+.userInfoIcon {
+  font-size: 16px !important;
+}
+
+.userInfo {
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.userUpdate {
+  padding: 20px;
+}
+.updateTitle {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.updateForm {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  /* justify-content: space-between; */
+}
+.updateForm > label {
+  font-size: 20px;
+  font-weight: 600;
+  color: #222;
+}
+.updateInput {
+  border: none;
+  width: 350px;
+  height: 20px;
+  margin-top: 10px;
+  color: rgb(179, 176, 176);
+  padding: 10px 0px;
+  border-bottom: 4px solid lightgrey;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.formRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.uploadImg {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.formUpload {
+  display: flex;
+  align-items: center;
+}
+.updateBtn {
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 600;
+  color: white;
+  background-color: darkblue;
+}
