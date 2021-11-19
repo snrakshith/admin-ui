@@ -1,0 +1,60 @@
+.newUser {
+  flex: 4;
+}
+
+.newFormUser {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newUserItem {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-right: 20px;
+  /* padding: ; */
+}
+.newUserItem > label {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(94, 88, 88);
+  margin-bottom: 10px;
+}
+
+.newUserItem > input {
+  padding: 8px;
+  height: 20px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+.newUserRadio > input {
+  margin-top: 10px;
+}
+
+.newUserRadio > label {
+  margin: 10px;
+  font-size: 18px;
+  color: #555;
+}
+
+.newUserSelect {
+  height: 40px;
+  border-radius: 5px;
+}
+
+.newUserSelect > option {
+  color: grey;
+}
+.newUserBtn {
+  font-size: 16px;
+  margin-top: 30px;
+  width: 200px;
+  border-radius: 10px;
+  font-weight: 600;
+  color: white;
+  background-color: darkblue;
+  padding: 7px 10px;
+  cursor: pointer;
+}
