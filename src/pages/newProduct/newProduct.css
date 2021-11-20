@@ -7,13 +7,27 @@
   flex-direction: column;
   /* flex-wrap: wrap; */
 }
-
+.newProductFile {
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  padding: 0px 0px 0px 0px;
+  /* flex-wrap: wrap; */
+}
+.newProductFile > label {
+  margin-bottom: 10px;
+}
 .newProductItem {
   width: 400px;
   display: flex;
   flex-direction: column;
   margin-top: 10px;
   margin-right: 20px;
+  /* padding: ; */
+}
+input[type="file" i] {
+  border-style: none;
+
   /* padding: ; */
 }
 .newProductItem > label {

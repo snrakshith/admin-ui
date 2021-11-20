@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import "./newProduct.css";
 
 const NewProduct = () => {
@@ -6,6 +5,10 @@ const NewProduct = () => {
     <div className="newProduct">
       <h1 className="newProductTitle">New Product </h1>
       <form className="newProductForm">
+        <div className="newProductFile">
+          <label for="myfile"> Image</label>
+          <input type="file" id="myfile" />
+        </div>
         <div className="newProductItem">
           <label htmlFor=""> Name</label>
           <input type="text" placeholder="John Smith" />

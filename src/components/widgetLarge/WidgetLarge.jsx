@@ -48,10 +48,10 @@ const WidgetLarge = () => {
           <td className="widgetUser">
             <img
               className="widgetImg"
-              src="https://v4.mui.com/static/images/avatar/3.jpg"
+              src="https://v4.mui.com/static/images/avatar/1.jpg"
               alt=""
             />
-            <span className="widgetName">kohli</span>
+            <span className="widgetName">Kohli</span>
           </td>
           <td className="widgetDate">23 May 2021</td>
           <td className="widgetAmount">$875.00</td>
