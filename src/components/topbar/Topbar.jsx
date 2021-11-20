@@ -1,13 +1,16 @@
 import React from "react";
 import { Language, NotificationsNone, Settings } from "@material-ui/icons";
 import "./topbar.css";
+import { Link } from "react-router-dom";
 
 const Topbar = () => {
   return (
     <div className="topbar">
       <div className="topbar-items">
         <div className="topbar-left">
-          <span className="logo">Admin</span>
+          <Link to="/" style={{ textDecoration: "none" }}>
+            <span className="logo">Admin</span>
+          </Link>
         </div>
         <div className="topbar-right">
           <div className="topbar-icon-container">
