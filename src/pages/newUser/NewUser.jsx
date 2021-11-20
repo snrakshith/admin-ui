@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./newUser.css";
 
 const NewUser = () => {
@@ -43,6 +44,7 @@ const NewUser = () => {
             <option value="no">No</option>
           </select>
         </div>
+        {/* <Link to="/newUser"></Link> */}
         <button className="newUserBtn">Create</button>
       </form>
     </div>

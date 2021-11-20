@@ -2,7 +2,7 @@ import "./product.css";
 import React from "react";
 
 const Product = () => {
-  return <div>product</div>;
+  return <div className="product">product</div>;
 };
 
 export default Product;

@@ -1,13 +1,14 @@
-.newUser {
+.newProduct {
   flex: 4;
 }
 
-.newFormUser {
+.newProductForm {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
 }
 
-.newUserItem {
+.newProductItem {
   width: 400px;
   display: flex;
   flex-direction: column;
@@ -15,39 +16,39 @@
   margin-right: 20px;
   /* padding: ; */
 }
-.newUserItem > label {
+.newProductItem > label {
   font-size: 16px;
   font-weight: 600;
   color: rgb(94, 88, 88);
   margin-bottom: 10px;
 }
 
-.newUserItem > input {
+.newProductItem > input {
   padding: 8px;
   height: 20px;
   border-radius: 5px;
   border: 1px solid grey;
 }
 
-.newUserRadio > input {
+.newProductRadio > input {
   margin-top: 10px;
 }
 
-.newUserRadio > label {
+.newProductRadio > label {
   margin: 10px;
   font-size: 18px;
   color: #555;
 }
 
-.newUserSelect {
+.newProductSelect {
   height: 40px;
   border-radius: 5px;
 }
 
-.newUserSelect > option {
+.newProductSelect > option {
   color: grey;
 }
-.newUserBtn {
+.newProductBtn {
   font-size: 16px;
   margin-top: 30px;
   width: 200px;

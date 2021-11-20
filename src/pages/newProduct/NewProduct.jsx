@@ -1,52 +1,31 @@
-import "./newUser.css";
+import { Link } from "react-router-dom";
+import "./newProduct.css";
 
-const NewUser = () => {
+const NewProduct = () => {
   return (
-    <div className="newUser">
-      <h1 className="newUserTitle">New User </h1>
-      <form className="newFormUser">
-        <div className="newUserItem">
-          <label htmlFor="">Username</label>
-          <input type="text" placeholder="John" />
-        </div>
-        <div className="newUserItem">
-          <label htmlFor="">Full Name</label>
+    <div className="newProduct">
+      <h1 className="newProductTitle">New Product </h1>
+      <form className="newProductForm">
+        <div className="newProductItem">
+          <label htmlFor=""> Name</label>
           <input type="text" placeholder="John Smith" />
         </div>
-        <div className="newUserItem">
-          <label htmlFor="">Email</label>
-          <input type="email" placeholder="john@gmail.com" />
+        <div className="newProductItem">
+          <label htmlFor="">Stock</label>
+          <input type="text" placeholder="123" />
         </div>
-        <div className="newUserItem">
-          <label htmlFor="">Phone</label>
-          <input type="number" placeholder="+123 456 78" />
-        </div>
-        <div className="newUserItem">
-          <label htmlFor="">Address</label>
-          <input type="text" placeholder="USA" />
-        </div>
-        <div className="newUserItem">
-          <label>Gender</label>
-          <div className="newUserRadio">
-            <input type="radio" name="gender" id="male" value="male" />
-            <label for="male">Male</label>
-            <input type="radio" name="gender" id="female" value="female" />
-            <label for="female">Female</label>
-            <input type="radio" name="gender" id="other" value="other" />
-            <label for="other">Other</label>
-          </div>
-        </div>
-        <div className="newUserItem">
+        <div className="newProductItem">
           <label>Active</label>
-          <select className="newUserSelect" name="active" id="active">
+          <select className="newProductSelect" name="active" id="active">
             <option value="yes">Yes</option>
             <option value="no">No</option>
           </select>
         </div>
-        <button className="newUserBtn">Create</button>
+        {/* <Link to="/newProduct"></Link> */}
+        <button className="newProductBtn">Create</button>
       </form>
     </div>
   );
 };
 
-export default NewUser;
+export default NewProduct;
